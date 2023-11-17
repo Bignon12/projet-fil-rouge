@@ -1,0 +1,152 @@
+{
+"categorie":[
+ {
+  "id_categorie": 4,
+  "libelle": "Pizza",
+  "description": "Venez découvrir notre Pizza afin de prendre part à cette merveilleuse création culinaire, laissez-vous emporter par ses saveurs et tombez sous le charme de la pizza, un plat qui transcende les frontières pour devenir une passion universelle.",
+  "image": "pizza_cat.jpg",
+  "active": "Yes"
+ },
+ {
+  "id_categorie": 5,
+  "libelle": "Burger",
+  "description": "Goutez à une expérience culinaire irrésistible qui mélange des saveurs, des textures et des sensations pour créer une symphonie de plaisir pour vos papilles.",
+  "image": "burger_cat.jpg",
+  "active": "Yes"
+ },
+ {
+  "id_categorie": 9,
+  "libelle": "Wraps",
+  "description": "Nous vous invitons à la rencontre d'une symphonie de goûts et de sensations enroulée dans une seule morsure. Les combinaisons sont infinies, que vous optiez pour un wrap au poulet grillé et avocat crémeux, un wrap végétarien rempli de légumes croquants, ou même un wrap exotique avec des influences du monde entier.",
+  "image": "wrap_cat.jpg",
+  "active": "Yes"
+ },
+ {
+  "id_categorie": 10,
+  "libelle": "Pasta",
+  "description": "les pâtes, l'une de nos meilleures spécialités, les plus appréciées au monde. Lorsque vous goûtez nos pâtes, vous ressentez la douceur de la texture fondante associée à la richesse de la sauce qui les enrobe. Les pâtes sont des toiles sur lesquelles se dessinent les saveurs de la terre, de la mer, et des jardins. Que vous choisissiez des spaghetti avec une sauce tomate fraîche et des herbes parfumées, des lasagnes avec des couches de fromage fondu, ou des tagliatelles aux fruits de mer, chaque variété de pâtes vous offre une expérience gustative unique.",
+  "image": "pasta_cat.jpg",
+  "active": "Yes"
+ },
+ {
+  "id_categorie": 11,
+  "libelle": "Sandwich",
+  "description": "Si vous êtes à la recherche d'une option de repas rapide et satisfaisante, ou alors, vous êtes un fin gourmet en quête de nouvelles saveurs, nos sandwich sont là pour vous. Préparez-vous à une expérience culinaire qui marie la simplicité à la variété, car un sandwich bien garni est une invitation à la découverte gustative et à la gourmandise, pour vos pique-nique en plein air, un déjeuner au bureau entre collègues.....",
+  "image": "sandwich_cat.jpg",
+  "active": "Yes"
+ },
+ {
+  "id_categorie": 12,
+  "libelle": "Asian Food",
+  "description": "Imaginez un voyage à travers les paysages culinaires de l'Asie, où chaque région offre une tapisserie unique de goûts, de textures et d'arômes. La cuisine asiatique est un festin pour les sens, une symphonie de saveurs et une célébration d'ingrédients comme nulle autre. Des étals de street food animés en Thaïlande aux repas raffinés du kaiseki au Japon, il existe un plat asiatique pour satisfaire toutes les envies et curiosités.",
+  "image": "asian_food_cat.jpg",
+  "active": "No"
+ },
+ {
+  "id_categorie": 13,
+  "libelle": "Salade",
+  "description": "Nos salade sont polyvalentes, s'adaptant à toutes les préférences alimentaires et offrant une infinité de combinaisons possibles. Que vous préfériez une salade légère et fraîche avec des feuilles de laitue et des tomates juteuses, ou une salade plus copieuse avec des ingrédients riches en protéines comme le poulet grillé ou le fromage, il y en a pour tous les goûts.",
+  "image": "salade_cat.jpg",
+  "active": "YES"
+ },
+ {
+  "id_categorie": 14,
+  "libelle": "Veggie",
+  "description": "La cuisine végétarienne est non seulement délicieuse, mais aussi une option saine pour le corps et la planète. Elle est riche en nutriments, en fibres et en antioxydants, tout en étant respectueuse de l'environnement grâce à une empreinte carbone réduite. Elle incite à explorer de nouvelles saveurs et à adopter un mode de vie durable.",
+  "image": "veggie_cat.jpg",
+  "active": "Yes"
+ }
+],
+"plat":[
+ {
+  "id_plat": 4,
+  "libelle": "District Burger",
+  "description": "Burger composé d'un bun's du boulanger, deux steaks de 80g (origine française), de deux tranches poitrine de porc fumée, de deux tranches cheddar affiné, salade et oignons confits. .",
+  "prix": 8,
+  "image": "hamburger.jpg",
+  "id_categorie": 5,
+  "active": "Yes"
+ },
+ {
+  "id_plat": 5,
+  "libelle": "Pizza Bianca",
+  "description": "Une pizza fine et croustillante garnie de crème mascarpone légèrement citronnée et de tranches de saumon fumé, le tout relevé de baies roses et de basilic frais.",
+  "prix": 14,
+  "image": "pizza-salmon.png",
+  "id_categorie": 4,
+  "active": "Yes"
+ },
+ {
+  "id_plat": 9,
+  "libelle": "Buffalo Chicken Wrap",
+  "description": "Du bon filet de poulet mariné dans notre spécialité sucrée & épicée, enveloppé dans une tortilla blanche douce faite maison.",
+  "prix": 5,
+  "image": "buffalo-chicken.webp",
+  "id_categorie": 9,
+  "active": "Yes"
+ },
+ {
+  "id_plat": 10,
+  "libelle": "Cheeseburger",
+  "description": "Burger composé d’un bun’s du boulanger, de salade, oignons rouges, pickles, oignon confit, tomate, d’un steak d’origine Française, d’une tranche de cheddar affiné, et de notre sauce maison.",
+  "prix": 8,
+  "image": "cheesburger.jpg",
+  "id_categorie": 5,
+  "active": "Yes"
+ },
+ {
+  "id_plat": 12,
+  "libelle": "Spaghetti aux légumes",
+  "description": "Un plat de spaghetti au pesto de basilic et légumes poêlés, très parfumé et rapide",
+  "prix": 10,
+  "image": "spaghetti-legumes.jpg",
+  "id_categorie": 10,
+  "active": "Yes"
+ },
+ {
+  "id_plat": 13,
+  "libelle": "Salade César",
+  "description": "Une délicieuse salade Caesar (César) composée de filets de poulet grillés, de feuilles croquantes de salade romaine, de croutons à l'ail, de tomates cerise et surtout de sa fameuse sauce Caesar. Le tout agrémenté de copeaux de parmesan.",
+  "prix": 7,
+  "image": "cesar_salad.jpg",
+  "id_categorie": 13,
+  "active": "Yes"
+ },
+ {
+  "id_plat": 14,
+  "libelle": "Pizza Margherita",
+  "description": "Une authentique pizza margarita, un classique de la cuisine italienne! Une pâte faite maison, une sauce tomate fraîche, de la mozzarella Fior di latte, du basilic, origan, ail, sucre, sel & poivre...",
+  "prix": 14,
+  "image": "pizza-margherita.jpg",
+  "id_categorie": 4,
+  "active": "Yes"
+ },
+ {
+  "id_plat": 15,
+  "libelle": "Courgettes farcies au quinoa et duxelles de champignons",
+  "description": "Voici une recette équilibrée à base de courgettes, quinoa et champignons, 100% vegan et sans gluten!",
+  "prix": 8,
+  "image": "courgettes_farcies.jpg",
+  "id_categorie": 14,
+  "active": "Yes"
+ },
+ {
+  "id_plat": 16,
+  "libelle": "Lasagnes",
+  "description": "Découvrez notre recette des lasagnes, l'une des spécialités italiennes que tout le monde aime avec sa viande hachée et gratinée à l'emmental. Et bien sûr, une inoubliable béchamel à la noix de muscade.",
+  "prix": 12,
+  "image": "lasagnes_viande.jpg",
+  "id_categorie": 10,
+  "active": "Yes"
+ },
+ {
+  "id_plat": 17,
+  "libelle": "Tagliatelles au saumon",
+  "description": "Découvrez notre recette délicieuse de tagliatelles au saumon frais et à la crème qui qui vous assure un véritable régal!",
+  "prix": 12,
+  "image": "tagliatelles-saumon2.jpg",
+  "id_categorie": 10,
+  "active": "Yes"
+ }
+]
+}

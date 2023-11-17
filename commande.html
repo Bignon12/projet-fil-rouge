@@ -76,33 +76,51 @@
         </div>
     </div>
     <div>
-        <div class="col-lg-12">
-            <div class="form-group">
-                <label for="nom" style="font-family: 'Trebuchet MS', sans-serif; font-size: 25px;">Nom et
-                    Prénoms*</label>
-                <input type="text" class="form-control" id="nom">
-                <span id= "mes1"></span>
+        <form class="d-flex justify-content-left col-12">
+            <div class="form-group m-2 col-6">
+                <label for="nom" style="font-family: 'Trebuchet MS', sans-serif; font-size: 25px;">Nom*</label>
+                <input type="text" class="form-control m" id="nom">
+                <div class="alert alert-danger alert-dismissible fade show" id="msg1"  role="alert">
+                    <strong>Ce champ est obligatoire</strong> 
+                  </div>
             </div>
-
-            <form class="d-flex justify-content-left col-12">
-                <div class="form-group m-2 col-6">
-                    <label for="nom" style="font-family: 'Trebuchet MS', sans-serif; font-size: 25px;">Email*</label>
-                    <input type="text" class="form-control m" id="email">
-                    <span id="mes2"></span>
-                </div>
-
-                <div class="form-group m-2 col-6">
-                    <label for="nom"
-                        style="font-family: 'Trebuchet MS', sans-serif; font-size: 25px;">Téléphone*</label>
-                    <input type="text" class="form-control" id="tel">
-                    <span id="mes3"></span>
-                </div>
-            </form>
-
+    
+            <div class="form-group m-2 col-6">
+                <label for="prenom"
+                    style="font-family: 'Trebuchet MS', sans-serif; font-size: 25px;">Prénoms*</label>
+                <input type="text" class="form-control" id="prenom">
+                <div class="alert alert-danger alert-dismissible fade show" id="msg2"  role="alert">
+                    <strong>Ce champ est obligatoire</strong> 
+                  </div>
+               </div>
+        </form>
+    </div>
+    <div>
+        <form class="d-flex justify-content-left col-12">
+            <div class="form-group m-2 col-6">
+                <label for="nom" style="font-family: 'Trebuchet MS', sans-serif; font-size: 25px;">Email*</label>
+                <input type="text" class="form-control m" id="email">
+                <div class="alert alert-danger alert-dismissible fade show" id="msg3"  role="alert">
+                    <strong>Ce champ est obligatoire</strong> 
+                  </div>
+            </div>
+    
+            <div class="form-group m-2 col-6">
+                <label for="prenom"
+                    style="font-family: 'Trebuchet MS', sans-serif; font-size: 25px;">Téléphone*</label>
+                <input type="text" class="form-control" id="tel">
+                <div class="alert alert-danger alert-dismissible fade show" id="msg4"  role="alert">
+                    <strong>Ce champ est obligatoire</strong> 
+                  </div>
+               </div>
+        </form>
+    </div>
             <div class="form-group">
                 <label for="nom" style="font-family: 'Trebuchet MS', sans-serif; font-size: 25px;">Adresse*</label>
                 <textarea type="text" class="form-control" col="3" id="adr"></textarea>
-                <span id="mes4"></span>
+                <div class="alert alert-danger alert-dismissible fade show" id="msg5"  role="alert">
+                    <strong>Ce champ est obligatoire</strong> 
+                </div>
             </div>
         </div>
     </div>
@@ -124,6 +142,7 @@
                 </div>
             </div>
         </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="commande.js"></script>
 </body>
 

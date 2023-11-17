@@ -83,8 +83,8 @@ body {
     padding-bottom: 10px;
    
 }
-.btn4{
-    margin-left: 2rem;
+.btn{
+    margin-left: 10rem;
 }
 
 
@@ -109,10 +109,11 @@ body {
 .nav-item:hover{
     transform: scale(1.15);
     color: black;
-}
+ }
+/* }
 .card{
     transition: transform 400ms
 }
 .card:hover{
     transform: scale(1.5);
-}
+} */
