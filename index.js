@@ -21,7 +21,7 @@ $(document).ready(function(){
                 }
                 else
                 {
-                      cache = $("#cacher")
+                    cache = $("#cacher")
                     cache.hide();
                     $.each(filtrePlats, function(indice, plat)
                     {
